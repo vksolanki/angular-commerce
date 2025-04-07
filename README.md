@@ -110,7 +110,38 @@ The build artifacts will be stored in the `dist/` directory.
 
 This project uses the [Any Store API](https://<anyapiurl>/) to fetch product data.
 
-Screens
+Sample API Response
+The /products endpoint returns the following response:
+
+```
+[
+  {
+    "id": 101,
+    "title": "Random Backpack - Fits 15 Laptops",
+    "price": 99.99,
+    "description": "A versatile backpack for everyday use. Includes a padded sleeve for laptops up to 15 inches.",
+    "category": "accessories",
+    "image": "https://dummyimage/600x400/000/fff&text=Backpack",
+    "rating": {
+      "rate": 4.5,
+      "count": 200
+    }
+  },
+  {
+    "id": 102,
+    "title": "Casual Slim Fit T-Shirts",
+    "price": 19.99,
+    "description": "Comfortable slim-fit t-shirts with a modern design. Perfect for casual outings.",
+    "category": "clothing",
+    "image": "https://dummyimage/600x400/000/fff&text=T-Shirt",
+    "rating": {
+      "rate": 4.0,
+      "count": 150
+    }
+  }
+]
+
+## Screens
 
 ![Screenshot 2025-04-07 094242](https://github.com/user-attachments/assets/68493212-24f0-4e19-91ac-9176e02a49bd)
 

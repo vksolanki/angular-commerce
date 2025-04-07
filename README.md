@@ -140,7 +140,7 @@ The /products endpoint returns the following response:
     }
   }
 ]
-
+```
 ## Screens
 
 ![Screenshot 2025-04-07 094242](https://github.com/user-attachments/assets/68493212-24f0-4e19-91ac-9176e02a49bd)
